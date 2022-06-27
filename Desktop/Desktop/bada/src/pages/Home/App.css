@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.head {
+  padding-top: 100px;
+  
+  font-size: 40px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.backtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.image1 {
+  background-image: url('/Users/isaachong/work/my-app/sash.jpg');
+  height: 55vh;
+  width: 28vw;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+ 
+}
+
+.sub_text1 {
+  font-size: 2vw;
+  margin-top: 100px;
+}
+.main_text1 {
+  font-size: 5vw;
+  margin-top: 75px;
+}
+
+.image2 {
+  background-image: url('/Users/isaachong/work/my-app/edamame.jpg');
+  height: 55vh;
+  width: 28vw;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.sub_text2 {
+  font-size: 2vw;
+  margin-top: 100px;
+}
+.main_text2 {
+  font-size: 5vw;
+  margin-top: 103px;
+}
+
+.image3 {
+  background-image: url('/Users/isaachong/work/my-app/drinks.webp');
+  height: 55vh;
+  width: 28vw;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.sub_text3 {
+  font-size: 2vw;
+  margin-top: 100px;
+}
+.main_text3 {
+  font-size: 5vw;
+  margin-top: 103px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home, .services, .contact-us, .sign-up{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+background-color: grey;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+font-size: 100px;
+}
+.services {
+background-color: grey;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #000000;
+font-size: 100px;
+}
+.contact-us{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #000000;
+font-size: 100px;
+}
+.sign-up {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #000000;
+font-size: 100px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
