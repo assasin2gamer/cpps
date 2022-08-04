@@ -1,0 +1,82 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.left{
+    display: block;
+    background: #e9e9e9;
+    font-size: 40px;
+    position: relative;
+    padding: 2px;
+    top:15vh;
+    float: left;
+    
+    
+}
+
+.right{
+    display: block;
+    background: #e9e9e9;
+    font-size: 40px;
+    position: relative;
+    padding: 2px;
+    top: 15vh;
+    float: right;
+    
+    
+}
+
+.foodimg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.foodimg:hover {
+    opacity: 0.4;
+}
+
+.foodimgModal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border: 5px solid #7b7b7b;
+    box-shadow: 5px 5px 5px black;
+}
+
+.productdescription {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}

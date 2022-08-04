@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Title{
+  display: flex;
+  flex-direction: column;
+}
+
+.headtext{
+  font-size: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+.subtext{
+  font-size: 30px;
+  padding-bottom: 70px;
+  position: relative
+}
+form{
+  border: 3px solid #f1f1f1;
+  padding: 12px 12px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #f1f1f1;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container{
+  font-size: 20px;
+  padding: 16px;
+}
+
+.container2{
+  padding: 4px 0;
+  margin: 2px 0;
+  border: none;
+}
+
+.forgotpsw{
+  font-size: 10px;
+  color: white; 
+}
+
+a:link, a:visited{
+  color: white;
+}
+
+.backtext {
+  background-color: #282c34;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

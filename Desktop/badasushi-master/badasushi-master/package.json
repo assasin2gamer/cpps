@@ -1,0 +1,63 @@
+{
+  "name": "bada",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chec/commerce.js": "^2.8.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fontsource/dancing-script": "^4.5.8",
+    "@fontsource/dosis": "^4.5.8",
+    "@fontsource/quicksand": "^4.5.9",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.5",
+    "@mui/styles": "^5.8.6",
+    "@stripe/react-stripe-js": "^1.9.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.9.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-hook-form": "^7.32.2",
+    "react-remove-scroll-bar": "^2.3.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "reactjs-popup": "^2.0.5",
+    "string-strip-html": "^4.5.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.53.0"
+  }
+}
